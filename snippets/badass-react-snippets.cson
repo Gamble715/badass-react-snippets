@@ -96,7 +96,7 @@
 
       ${1:MyComponent}.propTypes = propTypes;
       ${1:MyComponent}.defaultProps = defaultProps;
-      export default $1{:MyComponent};
+      export default ${1:MyComponent};
 
     """
 
