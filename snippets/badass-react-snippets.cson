@@ -86,7 +86,7 @@
 
       const defaultProps = {};
 
-      export default function ${1:MyComponent}(props) {
+      const ${1:MyComponent} = (props) => {
         return (
           ${3:<div>
             <h1>Title</h1>
@@ -96,6 +96,7 @@
 
       ${1:MyComponent}.propTypes = propTypes;
       ${1:MyComponent}.defaultProps = defaultProps;
+      export default $1{:MyComponent};
 
     """
 
